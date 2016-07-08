@@ -13,3 +13,15 @@ optional arguments:
   -h, --help     show this help message and exit
   --verbose, -v  Output information on the process.
 ```
+
+```
+# ./eTLDplusOne.py example.com bar.example.com foo.bar.example.com
+example.com
+example.com
+example.com
+
+# ./eTLDplusOne.py cloudfront.net bar.cloudfront.net foo.bar.cloudfront.net
+cloudfront.net
+bar.cloudfront.net
+bar.cloudfront.net
+```
