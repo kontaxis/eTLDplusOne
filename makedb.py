@@ -17,7 +17,7 @@ dirname = os.path.dirname(sys.argv[0])
 # Populate eTLDs records array
 eTLDs = []
 
-f = file(os.path.join(dirname, "public_suffix_list.dat"), "r")
+f = open(os.path.join(dirname, "public_suffix_list.dat"), "r")
 
 # The list is a set of rules, with one rule per line.
 for line in f:
